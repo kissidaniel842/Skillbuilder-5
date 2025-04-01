@@ -1,7 +1,6 @@
-
 /**
  * This class defines how power pills behave in
- * a game.  The purpose of a power pill is to simply
+ * a game. The purpose of a power pill is to simply
  * provide a character with power.
  *
  * @author (You)
@@ -9,18 +8,23 @@
  */
 public class PowerPill
 {
-    // TODO - replace this line with instruction from step 1
+    private static final int default_power = 10;
 
     // instance variables
-    // TODO - replace this line with instruction from step 2
-    // TODO - replace this line with instruction from step 3
+    private int power;
+    private String name;
 
     // constructors
 
-    // TODO - replace this line with instruction from step 4
+    public PowerPill(String name) {
+        this.name = name;
+        this.power = default_power;
+    }
 
-    // TODO - replace this line with instruction from step 5
-
+    public PowerPill(String name, int power) {
+        this.name = name;
+        this.power = power;
+    }
 
     // accessor methods
 
