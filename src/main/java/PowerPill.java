@@ -28,15 +28,29 @@ public class PowerPill
 
     // accessor methods
 
-    // TODO - replace this line with instruction from step 6
+    public String getName() {
+        return name;
+    }
 
+    public int getPower() {
+        return power;
+    }
 
     // mutator methods
 
-    // TODO - replace this line with instruction from step 7
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPower(int power) {
+        this.power = power;
+    }
 
     // toString method
 
-    // TODO - replace this line with instruction from step 8
+    @Override
+    public String toString() {
+        return "PowerPill " + name + " = " + power;
+    }
 
 }
