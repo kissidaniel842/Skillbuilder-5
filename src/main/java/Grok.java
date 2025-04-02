@@ -1,9 +1,5 @@
 
-/**
- *
- * @(Daniel Kissi)
- * @version (0.1)
- */
+
 public class Grok
 {
     // Static field that represents the default power level for all Grok objects

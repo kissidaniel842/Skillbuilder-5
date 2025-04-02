@@ -1,11 +1,4 @@
-/**
- * This class defines how power pills behave in
- * a game. The purpose of a power pill is to simply
- * provide a character with power.
- *
- * @author (You)
- * @version (0.1)
- */
+
 public class PowerPill
 {
     private static final int default_power = 10;
